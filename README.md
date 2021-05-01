@@ -1,2 +1,2 @@
-# Oc-ano-Rosa
+# Oceano-Rosa
 pruebas en base a océano rosa
