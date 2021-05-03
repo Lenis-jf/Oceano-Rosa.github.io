@@ -10,26 +10,27 @@
 <body>
     <main>
         <section class="main-container">
-            <form action="">
-                <label for="email">
-                    <span>Email:</span>
-                    <input type="email" class="email-input"placeholder="EJ: pepa21@ejemplo.com" autocomplete="email" required>
+            <form action="" class="formulario">
+                <label for="email" class="form-label">
+                    <span class="form-point" id="email-span">Email:</span>
+                    <input type="email" class="email-input"placeholder="ej: pepa21@ejemplo.com" autocomplete="email" required>
                 </label>
-                <br />
-                <label for="username">
-                    <span>Nombre de usuario:</span>
-                    <input type="text" class="username-input"placeholder="EJ: Gatito-alzado" autocomplete="username" required>
+                <br /><br /><br /><br />
+                <label for="username" class="form-label">
+                    <span class="form-point">Nombre de usuario:</span>
+                    <input type="text" class="username-input"placeholder="ej: Gatito-alzado" autocomplete="username" required>
                 </label>
-                <br />
-                <label for="password">
-                    <span>Contraseña:</span>
+                <br /><br /><br /><br />
+                <label for="password" class="form-label">
+                    <span class="form-point">Contraseña:</span>
                     <input type="password" class="password-input"placeholder="128739930" autocomplete="new-password" required>
+                </label class="form-label">
+                <br /><br /><br /><br />
+                <label for="password-confirmation" class="form-label">
+                    <span class="form-point">Confirmar contraseña:</span>
+                    <input type="password" class="password-input"placeholder="128739930" autocomplete="username" required>
                 </label>
-                <br />
-                <label for="password-confirmation">
-                    <span>Confirmar contraseña:</span>
-                    <input type="text" class="username-input"placeholder="EJ: Gatito-alzado" autocomplete="username" required>
-                </label>
+                <input type="submit" value="Registrarse" class="submit-button">
             </form>
         </section>
     </main>
