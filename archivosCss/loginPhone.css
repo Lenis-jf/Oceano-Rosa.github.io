@@ -14,12 +14,12 @@ body {
 
 header {
     display: flex;
+    height: 15vh;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .principal-title {
-    display: inherit;
-    margin-top: 25%;
     font-size: 4rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-shadow: -0.35rem 0.1rem 0.3rem rgb(255, 168, 168);
@@ -28,33 +28,27 @@ header {
 }
 
 main {
-    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 85vh;
     color: rgb(0, 0, 0);
 }
 
 .main-container {
     display: flex;
-    width: 85%;
-    height: 60%;
-    margin: auto;
     justify-content: center;
     align-items: center;
+    width: 85%;
+    height: 65%;
     border-radius: 2rem;
     box-shadow: -0.4rem 0.3rem 1.5rem 0.3rem rgb(153, 153, 153);
     background-color: rgb(255, 245, 245);
 }
 
-#email-span {
-    display: flex;
-    padding-right: 4rem;
-}
-
 .form-label {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
     flex-wrap: wrap;
     padding-left: 2rem;
 }
@@ -66,13 +60,15 @@ main {
 }
 
 .submit-button { 
-    display: flex;
     width: fit-content;
-    padding: 0.3rem;
-    position: relative; top: 3.5rem;
+    color: rgb(95, 95, 95);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
     left: 17rem;
     border-radius: 0.7rem;
     border: 0.1rem solid black;
+    margin-top: 3rem;
     background-color: rgb(255, 255, 255);;
 }
 
