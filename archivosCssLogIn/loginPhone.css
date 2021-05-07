@@ -51,7 +51,7 @@ main {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 88vh;
+    height: 87vh;
     color: rgb(0, 0, 0);
 }
 
@@ -73,7 +73,7 @@ main {
 }
 
 .form-point {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
@@ -81,7 +81,7 @@ main {
 .submit-button { 
     width: fit-content;
     color: rgb(95, 95, 95);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     padding: 1rem;
     left: 17rem;
@@ -94,7 +94,7 @@ main {
 .email-input, .username-input, .password-input {
     border-radius: 0.6rem;
     border:rgb(153, 153, 153) 0.1rem solid;
-    padding: 0.2rem;
+    padding: 0.1rem;
     width: 90%;
 }
 
@@ -102,7 +102,7 @@ main {
     display: flex;
     justify-content: flex-end;
     padding-right: 1.6rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 footer {
@@ -112,9 +112,29 @@ footer {
     justify-content: space-evenly;
     background-color: var(--header-color);
     width: 100vw;
-    height: 2vh;
+    height: 3vh;
 }
 
 a:active {
     color: rgb(38, 114, 255);
+}
+
+ @media (min-heigth: 480px) {
+    main {
+        height: 87vh;
+    }
+
+    .main-container {
+        height: 85%;
+    }
+
+    .form-point {
+        font-size: 1.4rem;
+    }
+
+    .submit-button {
+        padding: 0.7rem;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
 }
