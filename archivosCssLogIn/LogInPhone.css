@@ -47,10 +47,14 @@ a {
     padding-right: 0.7rem;
 } */
 
-div {
+.title-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-self: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     flex-wrap: wrap;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
@@ -64,26 +68,35 @@ div {
 }
 
 #principal-title {
+    font-family: 'Montserrat', sans-serif;
     font-size: 3.4rem;
-    font-weight: bolder;
     padding: 0.5rem;
-    box-shadow: 0rem 0.1rem 3rem 1.2rem rgb(243, 191, 191);
+}
+
+#hr {
+    display: flex;
+    width: 85%;
+    max-width: 40rem;
+    height: 0.3rem;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding-right: 4rem;
 }
 
 main {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 100vw;
     height: 87vh;
     color: rgb(0, 0, 0);
 }
 
-.main-container {
+.contenedor-principal {
     display: flex;
-    justify-content: center;
+    align-self: center;
     align-items: center;
+    max-width: 40rem;
     width: 85%;
     height: 45%;
     border-radius: 2rem;
