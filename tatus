@@ -1,0 +1,91 @@
+[33mcommit 26a1a8fabbee3963bf6b57deb78ef430888161f1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Juan Fernando Lenis <lenisserna2001@gmail.com>
+Date:   Thu May 6 22:32:23 2021 -0500
+
+    cambio final de nombre de archivos y finalizacion log-in para telefono
+
+[33mcommit 3ce723db9e0fe5f32f509c169223f65a59f9a77f[m
+Author: Juan Fernando Lenis <lenisserna2001@gmail.com>
+Date:   Thu May 6 19:30:19 2021 -0500
+
+    Cambio de nombre de archivos
+
+[33mcommit 975ed737605a882c03f06113acc7a68c31b8ae99[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Juan Fernando Lenis <lenisserna2001@gmail.com>
+Date:   Wed May 5 12:22:09 2021 -0500
+
+    cambie el title
+
+[33mcommit c12d25d9491fa2e76f4ba6246b2a73892a00ba86[m
+Author: Juan Fernando Lenis <lenisserna2001@gmail.com>
+Date:   Tue May 4 12:20:23 2021 -0500
+
+    Finalizado por completo. Faltan retoques responsives con respecto a la altura
+
+[33mcommit 447c347df05ed3f2f4777c442183100109b5603f[m
+Author: Juan Fernando Lenis <lenisserna2001@gmail.com>
+Date:   Tue May 4 11:53:20 2021 -0500
+
+    login finalizado para telefono
+
+[33mcommit 3eb1d7088a61d4b779dc9f7a57bf8aae7d82f7d3[m
+Author: Juan Fernando Lenis <lenisserna2001@gmail.com>
+Date:   Mon May 3 22:33:18 2021 -0500
+
+    ahora si por fin
+
+[33mcommit a5c864e49e7084763301576cae033c80350943b3[m
+Merge: 368b67d 2f8ac9c
+Author: Juan Fernando Lenis <lenisserna2001@gmail.com>
+Date:   Mon May 3 22:31:12 2021 -0500
+
+    final-inicio
+
+[33mcommit 2f8ac9c64dfb581355a26feecd9773936aae1a66[m[33m ([m[1;32mheader[m[33m)[m
+Author: Juan Fernando Lenis <lenisserna2001@gmail.com>
+Date:   Mon May 3 21:53:28 2021 -0500
+
+    finalizado el responsive design y el login principal
+
+[33mcommit 368b67d2a545c308c35c58db6eb490e8e3315205[m
+Author: Juan Fernando Lenis <lenisserna2001@gmail.com>
+Date:   Mon May 3 20:49:23 2021 -0500
+
+    ni idea
+
+[33mcommit 568c06cb371d93970535d4802eb09b9690a93dfe[m
+Author: Juan Fernando Lenis <lenisserna2001@gmail.com>
+Date:   Mon May 3 17:25:08 2021 -0500
+
+    añadí el titulo
+
+[33mcommit 3eaf08a7abca9aea39abb7defbffa32b018af002[m
+Merge: a1ff0c9 bb767ff
+Author: Juan Fernando Lenis <lenisserna2001@gmail.com>
+Date:   Mon May 3 16:55:58 2021 -0500
+
+    primer pull
+
+[33mcommit a1ff0c913538ef10df70aa6007a3ce11d4cb0921[m
+Author: Juan Fernando Lenis <lenisserna2001@gmail.com>
+Date:   Mon May 3 16:33:49 2021 -0500
+
+    parte central login phone
+
+[33mcommit 31f49d8af44106bbfc21ef681750e4d2657d206f[m
+Author: Juan Fernando Lenis <lenisserna2001@gmail.com>
+Date:   Sun May 2 13:29:32 2021 -0500
+
+    inicio
+
+[33mcommit bb767ffc1676439c7a78e39ccf7cdf37f9c7078f[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Lenis-jf <81935118+Lenis-jf@users.noreply.github.com>
+Date:   Sat May 1 17:02:29 2021 -0500
+
+    cambie la e
+
+[33mcommit 6469e6d21db33e532672260a961f3aeb919fede3[m
+Author: Lenis-jf <81935118+Lenis-jf@users.noreply.github.com>
+Date:   Sat May 1 17:01:17 2021 -0500
+
+    Initial commit
