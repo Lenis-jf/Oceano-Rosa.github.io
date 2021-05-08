@@ -22,6 +22,11 @@ header {
     background-color: var(--header-color);
     width: 100%;
     height: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header a {
+    font-size: 1.8rem;
 }
 
 .list-container {
@@ -30,7 +35,7 @@ header {
     width: auto;
     height: 10vh;
     justify-content: space-evenly;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     list-style: none;
 }
 
@@ -40,28 +45,66 @@ a {
     text-decoration: none;
 }
 
-#logo {
-    font-size: 5rem;
+/* #logo {
+    font-size: 3.8rem;
     font-weight: bold;
     padding-right: 0.7rem;
+} */
+
+.title-container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    letter-spacing: 0.3rem;
+}
+
+#h2 {
+    margin-top: 2rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+}
+
+#principal-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.8rem;
+    padding: 0.5rem;
+}
+
+#hr {
+    display: flex;
+    width: 85%;
+    max-width: 40rem;
+    height: 0.3rem;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    padding-right: 4rem;
+    padding-left: 4rem;
 }
 
 main {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 100vw;
-    height: 88vh;
+    height: 87vh;
     color: rgb(0, 0, 0);
 }
 
-.main-container {
+.contenedor-principal {
     display: flex;
-    justify-content: center;
+    align-self: center;
     align-items: center;
-    max-width: 55rem;
+    max-width: 40rem;
     width: 85%;
-    height: 65%;
+    height: 60%;
     border-radius: 2rem;
     box-shadow: -0.4rem 0.3rem 1.5rem 0.3rem rgb(153, 153, 153);
     background-color: var(--main-container-color);
@@ -70,11 +113,10 @@ main {
 .form-label {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 2rem;
 }
 
 .form-point {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
@@ -82,7 +124,7 @@ main {
 .submit-button { 
     width: fit-content;
     color: rgb(95, 95, 95);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     padding: 1rem;
     left: 17rem;
@@ -95,15 +137,16 @@ main {
 .email-input, .username-input, .password-input {
     border-radius: 0.6rem;
     border:rgb(153, 153, 153) 0.1rem solid;
-    padding: 0.2rem;
-    width: 90%;
+    padding: 0.1rem;
+    width: 100%;
 }
 
-.log-in {
+.forgeted-password, .sign-in {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 1.6rem;
-    font-size: 1.4rem;
+    justify-content: flex-start;
+    padding-left: 2rem;
+    padding-top: 1.4rem;
+    font-size: 1.2rem;
 }
 
 footer {
@@ -113,9 +156,13 @@ footer {
     justify-content: space-evenly;
     background-color: var(--header-color);
     width: 100vw;
-    height: 2vh;
+    height: 3vh;
 }
 
 a:active {
     color: rgb(38, 114, 255);
+}
+
+a:hover {
+    text-decoration: underline;
 }

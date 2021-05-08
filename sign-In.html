@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>oceanorosa.com</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./archivosCssSignIn/SignInPhone.css">
     <link rel="stylesheet" href="./archivosCssSignIn/SignInTablet.css" media="screen and (min-width: 600px)">
     <link rel="stylesheet" href="./archivosCssSignIn/SignInDesktop.css" media="screen and (min-width: 800px)">
@@ -12,7 +14,6 @@
 <body>
     <header>
         <ul class="list-container">
-            <li class="list-item" id="logo"><a href="">OR</a></li>
             <li class="list-item"><a href="">Inicio</a></li>
             <li class="list-item"><a href="">Accesorios</a></li>
             <li class="list-item"><a href="">¿Quienes somos?</a></li>
@@ -20,33 +21,40 @@
         </ul>
     </header>
     <main>
-        <section class="main-container">
-            <form action="" class="formulario">
-                <label for="email" class="form-label">
-                    <span class="form-point" id="email-span">Email:</span>
-                    <input type="email" class="email-input"placeholder="ej: pepa21@ejemplo.com" autocomplete="email" required>
-                </label>
-                <br /><br /><br /><br />
-                <label for="username" class="form-label">
-                    <span class="form-point">Nombre de usuario:</span>
-                    <input type="text" class="username-input"placeholder="ej: Gatito-alzado" autocomplete="username" required>
-                </label>
-                <br /><br /><br /><br />
-                <label for="password" class="form-label">
-                    <span class="form-point">Contraseña:</span>
-                    <input type="password" class="password-input"placeholder="128739930" autocomplete="new-password" required>
-                </label class="form-label">
-                <br /><br /><br /><br />
-                <label for="password-confirmation" class="form-label">
-                    <span class="form-point">Confirmar contraseña:</span>
-                    <input type="password" class="password-input"placeholder="128739930" autocomplete="username" required>
-                </label>
-                <for for="submit" class="form-label" id="registro">
-                <input type="submit" value="Registrarse" class="submit-button">
-                </for>
-                <span class="log-in"><a href="">¿Ya tienes una cuenta?</a></span>
-            </form>
-        </section>
+        <div class="title-container">
+            <h1 id="principal-title">OCÉANO ROSA</h1>
+            <hr id="hr"/>
+            <h2 id="h2">- Registrarse -</h2>
+        </div>
+        <div class="contenedor-principal">
+            <section>
+                <form action="" class="formulario">
+                    <label for="email" class="form-label">
+                        <span class="form-point" id="email-span">Email:</span>
+                        <input type="email" class="email-input"placeholder="ej: pepa21@ejemplo.com" autocomplete="email" required>
+                    </label>
+                    <br /><br /><br /><br />
+                    <label for="username" class="form-label">
+                        <span class="form-point">Nombre de usuario:</span>
+                        <input type="text" class="username-input"placeholder="ej: Gatito-alzado" autocomplete="username" required>
+                    </label>
+                    <br /><br /><br /><br />
+                    <label for="password" class="form-label">
+                        <span class="form-point">Contraseña:</span>
+                        <input type="password" class="password-input"placeholder="128739930" autocomplete="new-password" required>
+                    </label class="form-label">
+                    <br /><br /><br /><br />
+                    <label for="password-confirmation" class="form-label">
+                        <span class="form-point">Confirmar contraseña:</span>
+                        <input type="password" class="password-input"placeholder="128739930" autocomplete="username" required>
+                    </label>
+                    <for for="submit" class="form-label" id="registro">
+                    <input type="submit" value="Registrarse" class="submit-button">
+                    </for>
+                    <span class="log-in"><a href="">¿Ya tienes una cuenta?</a></span>
+                </form>
+            </section=>
+        </div>
     </main>
     <footer>
         <span class="footer-span"><a href="">Contacto:</a></span>
