@@ -104,7 +104,7 @@ main {
     align-items: center;
     max-width: 40rem;
     width: 85%;
-    height: 60%;
+    height: 65%;
     border-radius: 2rem;
     box-shadow: -0.4rem 0.3rem 1.5rem 0.3rem rgb(153, 153, 153);
     background-color: var(--main-container-color);
