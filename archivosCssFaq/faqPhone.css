@@ -49,12 +49,18 @@ main {
     height: 100%;
 }
 
+#aside-container {
+    display: flex;
+    justify-content: center;
+}
+
 .faq-guide {
     display: flex;
     flex-direction: column;
     align-self: center;
     align-items: center;
     justify-content: center;
+    min-width: 20rem;
     margin-top: 3rem;
     width: 85%;
     height: 23rem;
