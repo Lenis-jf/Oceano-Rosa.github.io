@@ -55,9 +55,9 @@ main {
     align-self: center;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
     width: 85%;
-    height: 35%;
+    height: 23rem;
     background-color: var(--main-container-color);
     border-radius: 2rem;
     box-shadow: 0rem 0.6rem 1rem 0.6rem rgb(133, 133, 133);
@@ -80,9 +80,11 @@ main {
     margin-top: 5rem;
     line-height: 2.5rem;
     text-align: justify;
-    margin-right: 3rem;
-    margin-left: 3rem;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 1.6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 #question-title {
@@ -92,7 +94,7 @@ main {
 }
 
 #last-question {
-    margin-bottom: 3rem;
+    margin-bottom: 10rem;
 }
 
 footer {
