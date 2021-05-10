@@ -96,6 +96,7 @@ main {
     display: flex;
     align-self: center;
     align-items: center;
+    justify-content: center;
     max-width: 40rem;
     width: 85%;
     height: 45%;

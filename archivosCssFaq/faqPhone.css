@@ -60,6 +60,7 @@ main {
     align-self: center;
     align-items: center;
     justify-content: center;
+    max-width: 35rem;
     min-width: 20rem;
     margin-top: 3rem;
     width: 85%;
