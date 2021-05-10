@@ -19,10 +19,12 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--header-color);
-    width: 100%;
-    height: 10vh;
     font-family: 'Times New Roman', Times, serif;
+    height: 10vh;
 }
 
 header a {
@@ -31,9 +33,7 @@ header a {
 
 .list-container {
     display: flex;
-    align-items: center;
-    width: auto;
-    height: 10vh;
+    width: 100%;
     justify-content: space-evenly;
     font-size: 1.4rem;
     list-style: none;
@@ -52,18 +52,12 @@ a {
 } */
 
 .title-container {
-    display: flex;
-    width: 100vw;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
     text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
 }
 
 #h2 {
@@ -79,22 +73,19 @@ a {
 }
 
 #hr {
-    display: flex;
-    width: 95%;
+    width: 90%;
     max-width: 40rem;
     height: 0.3rem;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(0, 0, 0);
-    padding-right: 4rem;
-    padding-left: 4rem;
 }
 
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-    height: 100vh;
+    height: 87vh;
     color: rgb(0, 0, 0);
 } 
 
@@ -167,7 +158,7 @@ footer {
     justify-content: space-evenly;
     background-color: var(--header-color);
     width: 100vw;
-    height: 3vh;
+    height: 4vh;
 }
 
 a:active {
