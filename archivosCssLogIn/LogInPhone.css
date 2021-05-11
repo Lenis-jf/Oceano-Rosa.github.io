@@ -128,6 +128,12 @@ main {
     background-color: rgb(255, 255, 255);;
 }
 
+.submit-button:hover {
+    transition: all 0.3s;
+    background-color: var(--header-color);
+    color: rgb(255, 255, 255);
+}
+
 .email-input, .username-input, .password-input {
     border-radius: 0.6rem;
     border:rgb(153, 153, 153) 0.1rem solid;

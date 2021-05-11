@@ -136,6 +136,12 @@ main {
     background-color: rgb(255, 255, 255);;
 }
 
+.submit-button:hover {
+    transition: all 0.3s;
+    color: rgb(255, 255, 255);
+    background-color: var(--header-color);
+}
+
 .email-input, .username-input, .password-input {
     border-radius: 0.6rem;
     border:rgb(153, 153, 153) 0.1rem solid;

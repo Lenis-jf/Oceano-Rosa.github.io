@@ -31,7 +31,7 @@ header {
     width: auto;
     height: 10vh;
     justify-content: space-evenly;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     list-style: none;
 }
 
@@ -69,7 +69,7 @@ a {
 
 #principal-title {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.4rem;
+    font-size: 4rem;
     padding: 0.5rem;
 }
 
@@ -112,7 +112,7 @@ main {
 }
 
 .form-point {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
@@ -120,7 +120,7 @@ main {
 .submit-button { 
     width: fit-content;
     color: rgb(95, 95, 95);
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: bold;
     padding: 1rem;
     left: 17rem;
@@ -142,7 +142,7 @@ main {
     justify-content: flex-start;
     padding-left: 2rem;
     padding-top: 1.4rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 footer {
