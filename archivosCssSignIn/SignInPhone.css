@@ -1,9 +1,8 @@
 :root {
-    --body-color: rgb(250, 229, 229);
-    --header-color: rgb(253, 212, 212);
-    --main-container-color: rgb(255, 245, 245);
+    --body-color: #ffb4b4;
+    --header-color: #ff9292;
+    --main-container-color: #ffdcdc;
 }
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -73,11 +72,10 @@ a {
 }
 
 #hr {
-    width: 90%;
-    max-width: 40rem;
-    height: 0.3rem;
     margin-left: auto;
     margin-right: auto;
+    width: 85%;
+    max-width: 50rem;
     background-color: rgb(0, 0, 0);
 }
 

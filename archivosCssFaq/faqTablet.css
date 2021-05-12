@@ -1,9 +1,3 @@
-:root {
-    --body-color: rgb(250, 229, 229);
-    --header-color: rgb(253, 212, 212);
-    --main-container-color: rgb(255, 245, 245);
-}
-
 * {
     box-sizing: border-box;
     padding: 0;

@@ -1,7 +1,7 @@
 :root {
-    --body-color: rgb(250, 229, 229);
-    --header-color: rgb(253, 212, 212);
-    --main-container-color: rgb(255, 245, 245);
+    --body-color: #ffb4b4;
+    --header-color: #ff9292;
+    --main-container-color: #ffdcdc;
 }
 
 * {
