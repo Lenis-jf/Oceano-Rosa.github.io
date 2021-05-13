@@ -25,27 +25,80 @@ header {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.list-container {
+ul.list-container {
     display: flex;
-    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 10vh;
-    justify-content: space-evenly;
-    font-size: 2rem;
-    list-style: none;
     background-color: var(--header-color);
+    position: sticky; top: 0;
+}
+
+#sub-list_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    font-size: 1.5rem;
+    max-width: 120rem;
+    width: 100%;
+    background-color: var(--header-color);
+    list-style: none;
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    width: 500%;
+    height: 100vh;
+    animation: cambio 20s infinite alternate;
+}
+
+.slider li {
+    list-style: none;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
 }
 
 #log-in_btn {
     padding: 1rem;
     border-radius: 1rem;
     border-style: none;
-    background-color: var(--main-container-color);
+    background-color: white;
 }
 
 #log-in_btn:hover {
     transition: all 0.3s;
-    background-color: #ff738a;
+    background-color: var(--main-container-color);
+    color: white;
+}
+
+#log-in_btn:active {
+    background-color: var(--main-container-color);
+    color: white;
 }
 
 a {
@@ -57,18 +110,28 @@ a {
 section h1 {
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
-    padding-top: 20rem;
+    padding-top: 10rem;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 5rem;
+    font-size: 2.8rem;
 }
 
 hr {
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    width: 95%;
     background-color: black;
+}
+
+section article {
+    max-width: 80%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    font-size: 2rem;
 }
 
 .recomendados {
@@ -79,7 +142,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     justify-content: space-evenly;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .div-imagen img {
@@ -87,6 +150,7 @@ hr {
     width: 30rem;
     height: 30rem;
     object-fit: cover;
+    margin-top: 5rem;
 }
 
 .slider-2 {
@@ -137,6 +201,7 @@ hr {
     border-radius: 50%;
     background-color: white;
     border: 0.3rem solid black;
+    cursor: pointer;
 }
 
 .slider-2 input[type="radio"]:checked ~ label {
@@ -150,21 +215,67 @@ hr {
     list-style: none;
 }
 
+div.accesorios-btn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+div.accesorios-btn button {
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 2rem;
+    padding: 1.3rem;
+    background-color: white;
+}
+
+div.accesorios-btn button:hover {
+    background-color: var(--main-container-color);
+    color: white;
+    cursor: pointer;
+}
+
+div.accesorios-btn button:active {
+    background-color: var(--main-container-color);
+    color: white;
+}
+
+div.icons-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    width: 80%;
+    max-width: 100rem;
+}
+
+div.icons-container svg:hover {
+    cursor: pointer;
+}
+
 footer {
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
     background-color: var(--header-color);
-    margin-top: 10rem;
+    margin-top: 5rem;
     width: 100%;
-    height: 3vh;
+    height: 5vh;
 }
 
 a:active {
-    color: rgb(38, 114, 255);
+    color: white;
+    text-decoration: underline;
 }
 
 a:hover {
+    color: white;
     text-decoration: underline;
+    cursor: pointer;
 }
