@@ -49,11 +49,6 @@ header {
     background-color: var(--main-container-color);
 }
 
-#log-in_btn:active {
-    background-color: var(--main-container-color);
-    color: white;
-}
-
 a {
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -132,11 +127,6 @@ footer {
     margin-top: 5rem;
     width: 100%;
     height: 5vh;
-}
-
-a:active {
-    color: white;
-    text-decoration: underline;
 }
 
 a:hover {
