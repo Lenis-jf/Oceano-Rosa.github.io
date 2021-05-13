@@ -1,148 +1,36 @@
-:root {
-    --body-color: rgb(250, 229, 229);
-    --header-color: rgb(253, 212, 212);
-    --main-container-color: rgb(255, 245, 245);
-}
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    background-color: var(--body-color);
-}
-
-header {
-    background-color: var(--header-color);
-    width: 100%;
-    height: 10vh;
-    font-family: 'Times New Roman', Times, serif;
-}
-
 header a {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .list-container {
-    display: flex;
-    align-items: center;
     max-width: 120rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 10vh;
-    justify-content: space-evenly;
     font-size: 2rem;
-    list-style: none;
 }
-
-a {
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-decoration: none;
-}
-
-/* #logo {
-    font-size: 3.8rem;
-    font-weight: bold;
-    padding-right: 0.7rem;
-} */
 
 .title-container {
-    display: flex;
-    width: 100vw;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    flex-wrap: wrap;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
     letter-spacing: 0.3rem;
 }
 
 #h2 {
     font-size: 2.5rem;
     margin-top: 2rem;
-    font-weight: lighter;
     letter-spacing: 0.2rem;
 }
 
 #principal-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 5rem;
-    padding: 0.5rem;
-}
-
-#hr {
-    display: flex;
-    width: 85%;
-    max-width: 50rem;
-    height: 0.3rem;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    padding-right: 4rem;
-    padding-left: 4rem;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 100vw;
-    height: 87vh;
-    color: rgb(0, 0, 0);
-}
-
-.contenedor-principal {
-    display: flex;
-    align-self: center;
-    align-items: center;
-    max-width: 40rem;
-    width: 85%;
-    height: 65%;
-    border-radius: 2rem;
-    box-shadow: -0.4rem 0.3rem 1.5rem 0.3rem rgb(153, 153, 153);
-    background-color: var(--main-container-color);
-}
-
-.form-label {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .form-point {
     font-size: 2rem;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
 }
 
 .submit-button { 
-    width: fit-content;
-    color: rgb(95, 95, 95);
     font-size: 1.7rem;
-    font-weight: bold;
     padding: 1rem;
     left: 17rem;
-    border-radius: 0.7rem;
-    border: 0.1rem solid black;
     margin-top: 3rem;
-    background-color: rgb(255, 255, 255);;
-}
-
-.email-input, .username-input, .password-input {
-    border-radius: 0.6rem;
-    border:rgb(153, 153, 153) 0.1rem solid;
-    padding: 0.1rem;
-    width: 100%;
 }
 
 .forgeted-password, .sign-in {
@@ -154,19 +42,5 @@ main {
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
-    background-color: var(--header-color);
-    width: 100vw;
-    height: 3vh;
-}
-
-a:active {
-    color: rgb(38, 114, 255);
-}
-
-a:hover {
-    text-decoration: underline;
+    font-size: 2rem;
 }

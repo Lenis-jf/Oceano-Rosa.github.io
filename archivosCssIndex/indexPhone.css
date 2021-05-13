@@ -1,0 +1,281 @@
+:root {
+    --body-color: #ffdcdc;
+    --header-color: #ff9292;
+    --main-container-color: #ffb4b4;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--body-color);
+}
+
+header {
+    width: 100%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul.list-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    background-color: var(--header-color);
+    position: sticky; top: 0;
+}
+
+#sub-list_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    font-size: 1.5rem;
+    max-width: 120rem;
+    width: 100%;
+    background-color: var(--header-color);
+    list-style: none;
+}
+
+.slider {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    width: 500%;
+    height: 100vh;
+    animation: cambio 20s infinite alternate;
+}
+
+.slider li {
+    list-style: none;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+#log-in_btn {
+    padding: 1rem;
+    border-radius: 1rem;
+    border-style: none;
+    background-color: white;
+}
+
+#log-in_btn:hover {
+    transition: all 0.3s;
+    background-color: var(--main-container-color);
+    color: white;
+}
+
+#log-in_btn:active {
+    background-color: var(--main-container-color);
+    color: white;
+}
+
+a {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+section h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.8rem;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background-color: black;
+}
+
+section article {
+    max-width: 80%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.recomendados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 150rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+}
+
+.div-imagen img {
+    border-radius: 2rem;
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    margin-top: 5rem;
+}
+
+.slider-2 {
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+    height: 60vh;
+    position: relative;
+    box-shadow: 0 0 2rem 1.5rem gray;
+}
+
+.slider-2 ul {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.slider-2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.7s;
+}
+
+.slider-2 input[type="radio"] {
+    position: relative;
+    z-index: 50;
+    margin: 1rem;
+    display: none;
+}
+
+.slider-2 input[type="radio"]:checked ~ img {
+    opacity: 1;
+}
+
+.slider-2 input[type="radio"] + label {
+    display: block;
+    position: relative;
+    z-index: 50;
+    margin: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    border: 0.3rem solid black;
+    cursor: pointer;
+}
+
+.slider-2 input[type="radio"]:checked ~ label {
+    background-color: black;
+    border: 0.3rem solid white;
+}
+
+.accesorios li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+div.accesorios-btn {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+div.accesorios-btn button {
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 2rem;
+    padding: 1.3rem;
+    background-color: white;
+}
+
+div.accesorios-btn button:hover {
+    background-color: var(--main-container-color);
+    color: white;
+    cursor: pointer;
+}
+
+div.accesorios-btn button:active {
+    background-color: var(--main-container-color);
+    color: white;
+}
+
+div.icons-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    width: 80%;
+    max-width: 100rem;
+}
+
+div.icons-container svg:hover {
+    cursor: pointer;
+}
+
+footer {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: var(--header-color);
+    margin-top: 5rem;
+    width: 100%;
+    height: 5vh;
+}
+
+a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
