@@ -1,8 +1,9 @@
 :root {
-    --body-color: #ffb4b4;
+    --body-color: #ffdcdc;
     --header-color: #ff9292;
-    --main-container-color: #ffdcdc;
+    --main-container-color: #ffb4b4;
 }
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,6 +12,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -161,8 +163,8 @@ footer {
     justify-content: center;
     justify-content: space-evenly;
     background-color: var(--header-color);
-    width: 100vw;
-    height: 4vh;
+    width: 100%;
+    height: 3vh;
 }
 
 a:active {
