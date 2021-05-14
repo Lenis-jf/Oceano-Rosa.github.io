@@ -1,0 +1,32 @@
+#sub-list_container {
+    font-size: 2rem;
+    max-width: 120rem;
+}
+
+section h1 {
+    font-size: 4rem;
+}
+
+section article {
+    font-size: 3.5rem;
+    max-width: 75rem;
+}
+
+hr {
+    max-width: 85rem;
+}
+
+li.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 6rem;
+}
+
+li.icons:hover {
+    cursor: pointer;
+}
+
+footer {
+    font-size: 2rem;
+}

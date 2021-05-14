@@ -40,10 +40,27 @@ header a {
     list-style: none;
 }
 
+#sub-list_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 10vh;
+    font-size: 1.5rem;
+    max-width: 120rem;
+    width: 100%;
+    background-color: var(--header-color);
+    list-style: none;
+}
+
 a {
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
+}
+
+li.icons {
+    display: none;
 }
 
 .title-container {

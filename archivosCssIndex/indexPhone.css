@@ -47,6 +47,10 @@ ul.list-container {
     list-style: none;
 }
 
+li.icons {
+    display: none;
+}
+
 .slider {
     width: 100%;
     height: 100vh;
