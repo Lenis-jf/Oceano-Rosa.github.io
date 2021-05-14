@@ -2,6 +2,14 @@
     font-size: 1.6rem;
 }
 
+#log-in_btn {
+    font-size: 2rem;
+}
+
+li.icons {
+    display: none;
+}
+
 #principal-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 4rem;

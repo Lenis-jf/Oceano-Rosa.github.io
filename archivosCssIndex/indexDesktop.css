@@ -15,6 +15,17 @@ section article {
     font-size: 3.5rem;
 }
 
+li.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 6rem;
+}
+
+li.icons:hover {
+    cursor: pointer;
+}
+
 .slider-2 {
     max-width: 60rem;
 }

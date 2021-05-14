@@ -5,3 +5,7 @@ section hr {
 footer {
     font-size: 1.7rem;
 }
+
+li.icons {
+    display: none;
+}

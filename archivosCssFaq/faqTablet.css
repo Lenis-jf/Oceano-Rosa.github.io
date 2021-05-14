@@ -6,6 +6,10 @@
     font-size: 2rem;
 }
 
+li.icons {
+    display: none;
+}
+
 .faq-guide {
     margin-top: 3rem;
     max-width: 35rem;

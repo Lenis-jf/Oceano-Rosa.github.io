@@ -7,6 +7,17 @@ header a {
     font-size: 2rem;
 }
 
+li.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 6rem;
+}
+
+li.icons:hover {
+    cursor: pointer;
+}
+
 .title-container {
     letter-spacing: 0.3rem;
 }
