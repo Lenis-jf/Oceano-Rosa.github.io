@@ -147,7 +147,6 @@ section article {
 }
 
 .div-imagen img {
-    border-radius: 2rem;
     width: 30rem;
     height: 30rem;
     object-fit: cover;
@@ -158,6 +157,8 @@ section article {
     margin-top: 10rem;
     margin-left: auto;
     margin-right: auto;
+    min-height: 80rem;
+    max-width: 60rem;
     width: 80vw;
     height: 60vh;
     position: relative;
