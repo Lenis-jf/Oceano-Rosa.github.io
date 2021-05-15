@@ -1,7 +1,8 @@
 :root {
-    --body-color: #ffdcdc;
-    --header-color: #ff9292;
-    --main-container-color: #ffb4b4;
+    --body-color: #faf2f2;
+    --header-color: #f1d1d1; 
+    --main-container-color: #f3e1e1;
+    --boton-background-color: #7d5a5a;
 }
 
 * {
@@ -54,11 +55,13 @@ ul.list-container {
     border-radius: 1rem;
     border-style: none;
     background-color: white;
+    color: rgb(95, 95, 95);
 }
 
 #log-in_btn:hover {
     transition: all 0.3s;
-    background-color: var(--main-container-color);
+    background-color: var(--boton-background-color);
+    color: white;
 }
 
 a {
@@ -148,5 +151,4 @@ footer {
 a:hover {
     color: white;
     text-decoration: underline;
-    cursor: pointer;
 }

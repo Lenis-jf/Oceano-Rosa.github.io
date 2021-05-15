@@ -1,8 +1,10 @@
 :root {
-    --body-color: #ffdcdc;
-    --header-color: #ff9292;
-    --main-container-color: #ffb4b4;
+    --body-color: #faf2f2;
+    --header-color: #f1d1d1; 
+    --main-container-color: #f3e1e1;
+    --boton-background-color: #7d5a5a;
 }
+
 
 * {
     box-sizing: border-box;
@@ -144,13 +146,13 @@ main {
     border-radius: 0.7rem;
     border: 0.1rem solid black;
     margin-top: 3rem;
-    background-color: rgb(255, 255, 255);;
+    background-color: white;
 }
 
 .submit-button:hover {
     transition: all 0.3s;
-    color: rgb(255, 255, 255);
-    background-color: var(--header-color);
+    color: white;
+    background-color: var(--boton-background-color);
 }
 
 .email-input, .username-input, .password-input {
@@ -183,5 +185,4 @@ footer {
 a:hover {
     color: white;
     text-decoration: underline;
-    cursor: pointer;
 }
