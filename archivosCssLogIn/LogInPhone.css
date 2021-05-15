@@ -1,7 +1,8 @@
 :root {
-    --body-color: #ffdcdc;
-    --header-color: #ff9292;
-    --main-container-color: #ffb4b4;
+    --body-color: #faf2f2;
+    --header-color: #f1d1d1; 
+    --main-container-color: #f3e1e1;
+    --boton-background-color: #7d5a5a;
 }
 
 * {
@@ -100,7 +101,6 @@ main {
     justify-content: center;
     width: 100%;
     height: 80.3vh;
-    color: rgb(0, 0, 0);
 }
 
 .contenedor-principal {
@@ -114,6 +114,7 @@ main {
     border-radius: 2rem;
     box-shadow: -0.4rem 0.3rem 1.5rem 0.3rem rgb(153, 153, 153);
     background-color: var(--main-container-color);
+    color: black;
 }
 
 .form-label {
@@ -138,13 +139,13 @@ main {
     border-radius: 0.7rem;
     border: 0.1rem solid black;
     margin-top: 3rem;
-    background-color: rgb(255, 255, 255);;
+    background-color: white;
 }
 
 .submit-button:hover {
     transition: all 0.3s;
-    background-color: var(--header-color);
-    color: rgb(255, 255, 255);
+    background-color:var(--boton-background-color);
+    color: white;
 }
 
 .email-input, .username-input, .password-input {
@@ -177,5 +178,4 @@ footer {
 a:hover {
     color: white;
     text-decoration: underline;
-    cursor: pointer;
 }
