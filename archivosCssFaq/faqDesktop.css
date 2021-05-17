@@ -8,10 +8,6 @@
     font-size: 2rem;
 }
 
-#log-in_btn {
-    font-size: 2rem;
-}
-
 li.icons {
     display: flex;
     justify-content: space-evenly;
@@ -46,8 +42,9 @@ main {
 .faq-guide {
     margin-left: 2rem;
     margin-top: 3rem;
-    max-width: 35rem;
-    min-width: 30rem;
+    max-width: 40rem;
+    min-width: 35rem;
+    min-height: 38rem;
     width: 85%;
     height: 30%;
     line-height: 3.7rem;
@@ -73,15 +70,11 @@ main {
 
 #question-title {
     text-align: center;
-    margin-bottom: 1rem;
-    padding-top: 2rem;
+    margin-bottom: 4rem;
+    padding-top: 4rem;
     font-size: 2.7rem;
 }
 
 #last-question {
     margin-bottom: 10rem;
-}
-
-footer {
-    font-size: 2rem;
 }

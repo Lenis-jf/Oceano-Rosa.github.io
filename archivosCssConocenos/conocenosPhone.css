@@ -25,8 +25,8 @@ header {
     align-items: center;
     justify-content: center;
     background-color: var(--header-color);
-    font-family: 'Times New Roman', Times, serif;
-    height: 10vh;
+    font-family: 'Montserrat', sans-serif;
+    height: 9rem;
 }
 
 ul.list-container {
@@ -50,23 +50,9 @@ ul.list-container {
     list-style: none;
 }
 
-#log-in_btn {
-    padding: 1rem;
-    border-radius: 1rem;
-    border-style: none;
-    color: rgb(95, 95, 95);
-    background-color: white;
-}
-
-#log-in_btn:hover {
-    transition: all 0.3s;
-    background-color: var(--boton-background-color);
-    color: white;
-}
-
 a {
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 
@@ -75,13 +61,17 @@ main {
     height: 100%;
 }
 
+section {
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+
 section h1 {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    padding-top: 5rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.8rem;
 }
 
@@ -110,16 +100,18 @@ section article {
     align-items: center;
     width: 100%;
     height: 40rem;
+    margin-top: 5rem;
 }
 
 div.icons-container {
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5rem;
     width: 80%;
-    max-width: 76rem;
+    max-width: 100rem;
+    height: 100%;
 }
 
 div.icons-container svg:hover {
@@ -137,12 +129,13 @@ footer {
     justify-content: center;
     justify-content: space-evenly;
     background-color: var(--header-color);
-    margin-top: 5rem;
+    margin-top: 15rem;
     width: 100%;
-    height: 5vh;
+    height: 6rem;
 }
 
 a:hover {
     color: white;
     text-decoration: underline;
+    transition: all 0.3s;
 }

@@ -23,14 +23,14 @@ body {
 header {
     width: 100%;
     height: auto;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ul.list-container {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 10vh;
+    height: 9rem;
     background-color: var(--header-color);
     position: sticky; top: 0;
 }
@@ -44,7 +44,7 @@ ul.list-container {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    height: 10vh;
+    height: 9rem;
     font-size: 1.5rem;
     max-width: 120rem;
     width: 100%;
@@ -106,7 +106,7 @@ li.icons {
 
 a {
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 
@@ -116,7 +116,7 @@ section h1 {
     text-align: center;
     align-items: center;
     padding-top: 10rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.8rem;
 }
 
@@ -232,7 +232,7 @@ div.accesorios-btn {
 
 div.accesorios-btn button {
     font-size: 1.6rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     border: none;
     border-radius: 2rem;
     padding: 1.3rem;
@@ -275,5 +275,5 @@ footer {
 a:hover {
     color: white;
     text-decoration: underline;
-    transition: all 0.2s;
+    transition: all 0.3s;
 }
