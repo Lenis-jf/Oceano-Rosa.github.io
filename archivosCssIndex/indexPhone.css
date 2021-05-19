@@ -23,16 +23,20 @@ body {
 header {
     width: 100%;
     height: auto;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ul.list-container {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 10vh;
+    height: 9rem;
     background-color: var(--header-color);
     position: sticky; top: 0;
+}
+
+.list-item {
+    padding-right: 13rem;
 }
 
 #sub-list_container {
@@ -40,7 +44,7 @@ ul.list-container {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    height: 10vh;
+    height: 9rem;
     font-size: 1.5rem;
     max-width: 120rem;
     width: 100%;
@@ -60,9 +64,9 @@ li.icons {
 
 .slider ul {
     display: flex;
-    width: 500%;
+    width: 300%;
     height: 100vh;
-    animation: cambio 20s infinite alternate;
+    animation: cambio 15s infinite alternate;
 }
 
 .slider li {
@@ -79,13 +83,11 @@ li.icons {
 
 @keyframes cambio {
     0% {margin-left: 0;}
-    20% {margin-left: 0;}
-    25% {margin-left: -100%;}
-    45% {margin-left: -100%;}
-    50% {margin-left: -200%;}
-    70% {margin-left: -200%;}
-    75% {margin-left: -300%;}
-    100% {margin-left: -300%;}
+    30% {margin-left: 0;}
+    37% {margin-left: -100%;}
+    67% {margin-left: -100%;}
+    73% {margin-left: -200%;}
+    100% {margin-left: -200%;}
 }
 
 #log-in_btn {
@@ -104,7 +106,7 @@ li.icons {
 
 a {
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 
@@ -114,7 +116,7 @@ section h1 {
     text-align: center;
     align-items: center;
     padding-top: 10rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.8rem;
 }
 
@@ -147,7 +149,6 @@ section article {
 }
 
 .div-imagen img {
-    border-radius: 2rem;
     width: 30rem;
     height: 30rem;
     object-fit: cover;
@@ -158,10 +159,12 @@ section article {
     margin-top: 10rem;
     margin-left: auto;
     margin-right: auto;
+    min-height: 80rem;
+    max-width: 60rem;
     width: 80vw;
     height: 60vh;
     position: relative;
-    box-shadow: 0 0 2rem 1.5rem gray;
+    box-shadow: 0 0 2rem 1rem gray;
 }
 
 .slider-2 ul {
@@ -197,17 +200,20 @@ section article {
     position: relative;
     z-index: 50;
     margin: 1rem;
-    width: 2rem;
-    height: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
     background-color: white;
-    border: 0.3rem solid black;
     cursor: pointer;
 }
 
 .slider-2 input[type="radio"]:checked ~ label {
-    background-color: black;
-    border: 0.3rem solid white;
+    background-color: rgb(24, 24, 24);
+}
+
+.slider-2 input[type="radio"]:hover ~ label {
+    background-color: rgba(97, 97, 97, 0.411);
+    transition: all 0.5s;
 }
 
 .accesorios li {
@@ -226,7 +232,7 @@ div.accesorios-btn {
 
 div.accesorios-btn button {
     font-size: 1.6rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     border: none;
     border-radius: 2rem;
     padding: 1.3rem;
@@ -241,12 +247,13 @@ div.accesorios-btn button:hover {
 
 div.icons-container {
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5rem;
     width: 80%;
     max-width: 100rem;
+    height: 100%;
 }
 
 div.icons-container svg:hover {
@@ -262,10 +269,11 @@ footer {
     background-color: var(--header-color);
     margin-top: 5rem;
     width: 100%;
-    height: 5vh;
+    height: 6rem;
 }
 
 a:hover {
     color: white;
     text-decoration: underline;
+    transition: all 0.3s;
 }

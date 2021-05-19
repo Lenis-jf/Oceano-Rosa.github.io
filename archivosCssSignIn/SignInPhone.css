@@ -26,8 +26,8 @@ header {
     align-items: center;
     justify-content: center;
     background-color: var(--header-color);
-    font-family: 'Times New Roman', Times, serif;
-    height: 10vh;
+    font-family: 'Montserrat', sans-serif;
+    height: 9rem;
 }
 
 header a {
@@ -47,7 +47,7 @@ header a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    height: 10vh;
+    height: 9rem;
     font-size: 1.5rem;
     max-width: 120rem;
     width: 100%;
@@ -57,7 +57,7 @@ header a {
 
 a {
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 
@@ -69,8 +69,6 @@ li.icons {
     text-align: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
     letter-spacing: 0.2rem;
 }
 
@@ -81,7 +79,6 @@ li.icons {
 }
 
 #principal-title {
-    font-family: 'Montserrat', sans-serif;
     font-size: 3.3rem;
     padding: 0.5rem;
 }
@@ -98,11 +95,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80.3vh;
+    height: 100vh;
     color: rgb(0, 0, 0);
 } 
 
-.contenedor-principal {
+div.contenedor-principal {
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -112,8 +109,8 @@ main {
     max-width: 40rem;
     width: 85%;
     height: 65%;
-    max-height: 45rem;
-    min-height: 40rem;
+    max-height: 50rem;
+    min-height: 45rem;
     border-radius: 2rem;
     box-shadow: -0.4rem 0.3rem 1.5rem 0.3rem rgb(153, 153, 153);
     background-color: var(--main-container-color);
@@ -127,7 +124,7 @@ main {
 
 .form-point {
     font-size: 1.6rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
@@ -179,10 +176,26 @@ footer {
     background-color: var(--header-color);
     margin-top: 5rem;
     width: 100%;
-    height: 5vh;
+    height: 6rem;
+}
+
+div.icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 100rem;
+    height: 100%;
+}
+
+div.icons-container svg:hover {
+    cursor: pointer;
 }
 
 a:hover {
     color: white;
     text-decoration: underline;
+    transition: all 0.3s;
 }

@@ -22,18 +22,19 @@ body {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: var(--header-color);
-    font-family: 'Times New Roman', Times, serif;
-    height: 10vh;
+    font-family: 'Montserrat', sans-serif;
+    height: 9rem;
 }
 
 .list-container {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 10vh;
+    height: 9rem;
     justify-content: space-evenly;
     font-size: 1.5rem;
     list-style: none;
@@ -44,7 +45,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    height: 10vh;
+    height: 9rem;
     font-size: 1.5rem;
     max-width: 120rem;
     width: 100%;
@@ -54,7 +55,7 @@ header {
 
 a {
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 
@@ -71,19 +72,18 @@ li.icons {
     margin-top: 5rem;
     margin-bottom: 5rem;
     flex-wrap: wrap;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: oblique;
     letter-spacing: 0.3rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #h2 {
     margin-top: 2rem;
     font-weight: lighter;
     letter-spacing: 0.2rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #principal-title {
-    font-family: 'Montserrat', sans-serif;
     font-size: 3.4rem;
     padding: 0.5rem;
 }
@@ -100,17 +100,19 @@ main {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 80.3vh;
+    height: 100vh;
 }
 
-.contenedor-principal {
+div.contenedor-principal {
     display: flex;
     align-self: center;
     align-items: center;
     justify-content: center;
-    max-width: 40rem;
+    max-width: 50rem;
     width: 85%;
     height: 45%;
+    max-height: 40rem;
+    min-height: 35rem;
     border-radius: 2rem;
     box-shadow: -0.4rem 0.3rem 1.5rem 0.3rem rgb(153, 153, 153);
     background-color: var(--main-container-color);
@@ -125,7 +127,7 @@ main {
 
 .form-point {
     font-size: 1.6rem;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
@@ -170,12 +172,27 @@ footer {
     justify-content: center;
     justify-content: space-evenly;
     background-color: var(--header-color);
-    margin-top: 5rem;
     width: 100%;
-    height: 5vh;
+    height: 6rem;
+}
+
+div.icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 100rem;
+    height: 100%;
+}
+
+div.icons-container svg:hover {
+    cursor: pointer;
 }
 
 a:hover {
     color: white;
     text-decoration: underline;
+    transition: all 0.3s;
 }
